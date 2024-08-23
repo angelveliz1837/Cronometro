@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cronómetro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--CSS (Efectos visuales)-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--HTML(Estructura)-->
+    <div class="marco">
+        <div class="tiempo" id="tiempo">
+            00:00:00.000
+        </div>
+        <div class="btn" onclick="iniciar()">
+            <i class="fas fa-play"></i>
+        </div>
+        <div class="btn" onclick="pausar()">
+            <i class="fas fa-pause"></i>
+        </div>
+        <div class="btn" onclick="reiniciar()">
+            <i class="fas fa-redo-alt"></i>
+        </div>
+    </div>
+
+    <!--JS (Parte Lógica)-->
+    <script src="script.js"></script>
+</body>
+</html>

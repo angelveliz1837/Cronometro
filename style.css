@@ -1,0 +1,31 @@
+*{
+    transition: all 0.3s;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    font-family: calibri;
+    color: white;
+    background: linear-gradient(white,skyblue);
+}
+
+.marco{
+    border-radius: 30px;
+    background: #333;
+    padding: 15px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 60%;
+    padding: 20px;
+    cursor: pointer;
+}
